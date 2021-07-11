@@ -59,7 +59,7 @@
         UIViewController *topViewController = window.rootViewController;
         if (topViewController) return topViewController;
     }
-////spdbccc
+
     return UIApplication.sharedApplication.delegate.window.rootViewController;
 }
 
